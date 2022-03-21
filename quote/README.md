@@ -1,4 +1,4 @@
-### Exerice quote
+# Exerice quote
 
 L'objectif de ce mini projet est de réaliser un outil de demande de devis pour du stationnement.
 
@@ -14,7 +14,7 @@ Tu devras au préalable configurer les accès à la base de donnée.
 
 ## User stories
 
-# ETQAdmin je souhaite pouvoir configurer des zones
+### ETQAdmin je souhaite pouvoir configurer des zones
 
 Pour configurer une zone, j'ai besoin des endpoints suivants :
 
@@ -29,7 +29,7 @@ Modifier une zone
 * DELETE /zones/:zone_id
 Supprimer une zone
 
-# ETQAdmin je souhaite pouvoir configurer le prix d'une zone
+### ETQAdmin je souhaite pouvoir configurer le prix d'une zone
 
 Pour configurer le prix d'une zone, j'ai besoin des endpoints suivants :
 
@@ -38,7 +38,7 @@ Dans le body, je souhaite donner un taux journalier et un nombre de jours minimu
 * DELETE /zones/:zone_id/price/:price_id
 Supprime la configuration de prix
 
-# ETQClient je souhaite pouvoir obtenir un prix pour une demande de réservation
+### ETQClient je souhaite pouvoir obtenir un prix pour une demande de réservation
 
 Ici, nous avons besoin uniquement de l'endpoint GET /quote.
 
