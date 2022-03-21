@@ -7,6 +7,7 @@ Tu disposes d'une base Koa.js avec mysql comme driver pour effectuer les requêt
 ## Ressources
 
 * koa : https://koajs.com/
+* koa router : https://github.com/koajs/router#readme
 * mysql2 : https://github.com/sidorares/node-mysql2#readme
 
 Pour démarrer le projet en local, il suffit de faire `yarn start`.
