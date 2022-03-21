@@ -20,7 +20,7 @@ Tu devras au préalable configurer les accès à la base de donnée.
 Pour configurer une zone, j'ai besoin des endpoints suivants :
 
 * POST /zones
-Créer une zone avec un nom et prix journalier
+Créer une zone avec un nom
 * GET /zones/:zone_id
 Récupère une zone
 * GET /zones
