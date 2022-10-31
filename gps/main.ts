@@ -1,6 +1,4 @@
-import map, { Cities, City, Connexion } from './map';
-
-const getDistance = (path: Connexion[]) => path.reduce((total, { distance }) => total + distance, 0);
+import map, { Cities, Connexion } from './map';
 
 const path = (from: keyof Cities, to: keyof Cities): Array<Connexion> => {
   return [];
